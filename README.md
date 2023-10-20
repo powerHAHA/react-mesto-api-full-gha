@@ -9,6 +9,6 @@
 
 IP-адрес 158.160.122.98
 
-Frontend http://d-snytko.nomoredomainsrocks.ru
+Frontend https://d-snytko.nomoredomainsrocks.ru
 
-Backend http://api.d-snytko.nomoredomainsrocks.ru
+Backend https://api.d-snytko.nomoredomainsrocks.ru
