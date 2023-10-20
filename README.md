@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.122.98
+IP 158.160.122.98
 
 Frontend https://d-snytko.nomoredomainsrocks.ru
 
