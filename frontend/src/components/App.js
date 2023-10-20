@@ -198,16 +198,7 @@ function App() {
 								onCardDelete={handleCardDelete}
 							/>} />
 					</Routes>
-
-					{/* <Main
-						cards={cards}
-						onEditProfile={handleEditProfileClick}
-						onEditAvatar={handleEditAvatarClick}
-						onAddPlace={handleAddPlaceClick}
-						onCardClick={handleCardClick}
-						onCardLike={handleCardLike}
-						onCardDelete={handleCardDelete}
-					/> */}
+					
 					<InfoTooltip
 						isOpen={isInfoTooltipPopupOpen}
 						onClose={closeAllPopups}
