@@ -1,10 +1,13 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const { errors } = require('celebrate');
 const router = require('./routes/index');
 const routerAuth = require('./routes/auth');
 const auth = require('./middlewares/auth');
 const handleError = require('./errors/handleError');
+const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const {
   PORT = 3000,
@@ -16,12 +19,21 @@ mongoose.connect(DB_URL, {
 });
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(requestLogger);
+
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 app.use('/', routerAuth);
 app.use(auth);
 app.use(router);
+app.use(errorLogger);
 app.use(errors());
 app.use(handleError);
 
