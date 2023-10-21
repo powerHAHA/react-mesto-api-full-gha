@@ -27,6 +27,20 @@ export const InfoTooltip = ({ isOpen, onClose, result }) => {
 					</p>
 				</div>
 			</div>
+
+			{/* <div className="popup">
+				<div className="popup__container">
+					<button
+						className="popup__button-close button"
+						type="button"
+						aria-label="Закрыть"
+						onClick={onclose}
+					/>
+					<img className="popup__img" src={verificationOff} alt="test" />
+					<p className="popup__info">Что-то пошло не так! Попробуйте ещё раз.</p>
+				</div>
+			</div> */}
+
 		</>
 	)
 }

@@ -1,17 +1,22 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/font.css);
+
 @import url(./blocks/page/page.css);
 @import url(./blocks/page/__container/page__container.css);
 @import url(./blocks/page/__profile/page__profile.css);
 @import url(./blocks/page/__elements/page__elements.css);
 @import url(./blocks/page/__footer/page__footer.css);
+
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__container-login/header__container-login.css);
 @import url(./blocks/header/__link/header__link.css);
 @import url(./blocks/header/__email/header__email.css);
+
 @import url(./blocks/logo/logo.css);
+
 @import url(./blocks/content/content.css);
 @import url(./blocks/button/button.css);
+
 @import url(./blocks/profile/profile.css);
 @import url(./blocks/profile/__info/profile__info.css);
 @import url(./blocks/profile/__avatar-container/profile__avatar-container.css);
@@ -23,6 +28,7 @@
 @import url(./blocks/profile/__button-edit/profile__button-edit.css);
 @import url(./blocks/profile/__job/profile__job.css);
 @import url(./blocks/profile/__button-add/profile__button-add.css);
+
 @import url(./blocks/elements/elements.css);
 @import url(./blocks/elements/__items/elements__items.css);
 @import url(./blocks/element/element.css);
@@ -35,8 +41,10 @@
 @import url(./blocks/element/__button-like/element__button-like.css);
 @import url(./blocks/element/__button-like/_active/element__button-like_active.css);
 @import url(./blocks/element/__like-counter/element__like-counter.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
+
 @import url(./blocks/popup/popup.css);
 @import url(./blocks/popup/_opened/popup_opened.css);
 @import url(./blocks/popup/__container/popup__container.css);
@@ -57,6 +65,7 @@
 @import url(./blocks/popup/__caption/popup__caption.css);
 @import url(./blocks/popup/__icon/popup__icon.css);
 @import url(./blocks/popup/__info/popup__info.css);
+
 @import url(./blocks/verification/verification.css);
 @import url(./blocks/verification/__title/verification__title.css);
 @import url(./blocks/verification/__form/verification__form.css);

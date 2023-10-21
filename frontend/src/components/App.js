@@ -17,6 +17,8 @@ import { InfoTooltip } from './InfoTooltip';
 import { Route, Routes, Navigate, useNavigate } from 'react-router-dom';
 import { ProtectedRoute } from './ProtectedRoute';
 
+
+
 function App() {
 
 	const [currentUser, setCurrentUser] = React.useState({
@@ -198,7 +200,16 @@ function App() {
 								onCardDelete={handleCardDelete}
 							/>} />
 					</Routes>
-					
+
+					{/* <Main
+						cards={cards}
+						onEditProfile={handleEditProfileClick}
+						onEditAvatar={handleEditAvatarClick}
+						onAddPlace={handleAddPlaceClick}
+						onCardClick={handleCardClick}
+						onCardLike={handleCardLike}
+						onCardDelete={handleCardDelete}
+					/> */}
 					<InfoTooltip
 						isOpen={isInfoTooltipPopupOpen}
 						onClose={closeAllPopups}

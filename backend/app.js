@@ -20,6 +20,7 @@ mongoose.connect(DB_URL, {
 
 const app = express();
 app.use(cors());
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(requestLogger);
@@ -33,6 +34,7 @@ app.get('/crash-test', () => {
 app.use('/', routerAuth);
 app.use(auth);
 app.use(router);
+
 app.use(errorLogger);
 app.use(errors());
 app.use(handleError);

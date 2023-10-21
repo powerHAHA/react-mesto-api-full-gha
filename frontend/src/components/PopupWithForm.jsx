@@ -12,6 +12,7 @@ export const PopupWithForm = ({ name, title, buttonText, isOpen, onClose, childr
 					aria-label="Закрыть"
 					onClick={onClose}
 				/>
+
 				<form name={name} className="popup__form" onSubmit={onSubmit}>
 					<h3 className="popup__title">{title}</h3>
 					{children}
