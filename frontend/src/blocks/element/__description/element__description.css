@@ -1,0 +1,6 @@
+.element__description {
+	display: flex;
+	margin: 25px 15px 31px 21px;
+	width: 100%;
+	max-width: 246px;
+}

@@ -1,0 +1,10 @@
+.profile__avatar-container {
+	position: relative;
+	margin: 0 30px 0 0;
+	width: 120px;
+	height: 120px;
+}
+
+.profile__avatar-container:hover .profile__button-avatar {
+	z-index: 1;
+}

@@ -1,0 +1,17 @@
+.verification__input {
+	margin: 0;
+	border: 0;
+	padding: 0 0 13px 0;
+	outline: none;
+	border-bottom: 2px solid #CCCCCC;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: white;
+	box-sizing: border-box;
+	background: black;
+}
+
+.verification__input:not(:last-of-type) {
+	margin-bottom: 30px;
+}
