@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP 84.201.157.231
+IP 158.160.122.98
 
 Frontend https://alexandrger.nomoredomainsicu.ru/
 
