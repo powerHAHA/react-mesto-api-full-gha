@@ -1,5 +1,5 @@
 const authOptions = {
-	url: 'https://d-snytko.nomoredomainsrocks.ru',
+	url: '',
 	headers: {
 		'Content-Type': 'application/json'
 	}

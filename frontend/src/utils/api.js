@@ -1,5 +1,5 @@
 const apiOptions = {
-	url: 'https://d-snytko.nomoredomainsrocks.ru'
+	url: ''
 }
 
 class Api {
@@ -20,6 +20,7 @@ class Api {
 		return fetch(url, options).then(this._handleResponse)
 	}
 
+	// Получение данных о пользователе с сервера
 	getUserData() {
 		return this._request(`${this._url}/users/me`, {
 			method: 'GET',
@@ -30,6 +31,7 @@ class Api {
 		})
 	}
 
+	// Отправка полученных данных о пользователе на сервер
 	sendUserData(userData) {
 		return this._request(`${this._url}/users/me`, {
 			method: 'PATCH',
@@ -44,6 +46,7 @@ class Api {
 		})
 	}
 
+	// Смена аватара пользователя
 	sendAvatarData(userAvatar) {
 		return this._request(`${this._url}/users/me/avatar`, {
 			method: 'PATCH',
@@ -57,6 +60,7 @@ class Api {
 		})
 	}
 
+	// Добавление новой карточки на сервер
 	addNewCard({ name, link }) {
 		return this._request(`${this._url}/cards`, {
 			method: 'POST',
@@ -68,6 +72,7 @@ class Api {
 		})
 	}
 
+	// Загрузка карточек с сервера
 	getCards() {
 		return this._request(`${this._url}/cards`, {
 			method: 'GET',
@@ -78,6 +83,7 @@ class Api {
 		})
 	}
 
+	// Удаление карточки
 	deleteCard(cardId) {
 		return this._request(`${this._url}/cards/${cardId}`, {
 			method: 'DELETE',
@@ -88,6 +94,7 @@ class Api {
 		})
 	}
 
+	// Постановка лайка
 	putLike(cardId) {
 		return this._request(`${this._url}/cards/${cardId}/likes`, {
 			method: 'PUT',
@@ -98,6 +105,7 @@ class Api {
 		})
 	}
 
+	// Удаление лайка
 	deleteLike(cardId) {
 		return this._request(`${this._url}/cards/${cardId}/likes`, {
 			method: 'DELETE',

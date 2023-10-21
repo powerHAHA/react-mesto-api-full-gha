@@ -58,5 +58,6 @@ export const Main = ({ cards, onEditAvatar, onEditProfile, onAddPlace, onCardCli
 				</ul>
 			</section>
 		</main>
+
 	)
 }

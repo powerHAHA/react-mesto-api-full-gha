@@ -7,7 +7,6 @@ const cardModel = require('../models/card');
 const NotFoundError = require('../errors/NotFoundError');
 const BadRequestError = require('../errors/BadRequestError');
 const ForbiddenError = require('../errors/ForbiddenError');
-
 const getAllCards = (req, res, next) => {
   cardModel.find({})
     .then((cards) => res.status(HTTP_STATUS_OK).send(cards))
