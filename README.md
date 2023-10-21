@@ -7,8 +7,8 @@
 
 ## Ссылки на проект
 
-IP 158.160.122.98
+IP 84.201.157.231
 
-Frontend https://d-snytko.nomoredomainsrocks.ru
+Frontend https://alexandrger.nomoredomainsicu.ru/
 
-Backend https://api.d-snytko.nomoredomainsrocks.ru
+Backend https://api.alexandrger.nomoredomainsicu.ru/
