@@ -7,8 +7,8 @@
 
 ## Ссылки на проект
 
-IP 158.160.122.98
+IP 158.160.53.34
 
-Frontend https://alexandrger.nomoredomainsicu.ru/
+Frontend https://didsen1.students.nomoredomainsrocks.ru
 
-Backend https://api.alexandrger.nomoredomainsicu.ru/
+Backend https://api.didsen1.students.nomo.nomoredomainsrocks.ru
