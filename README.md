@@ -7,8 +7,8 @@
 
 ## Ссылки на проект
 
-IP 158.160.53.34
+IP 158.160.83.254
 
-Frontend https://didsen1.students.nomoredomainsrocks.ru
+Frontend https://yanstudy.nomoredomainsrocks.ru
 
-Backend https://api.didsen1.students.nomo.nomoredomainsrocks.ru
+Backend http://api.yanstudy.nomoredomainsrocks.ru
